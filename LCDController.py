@@ -4,6 +4,7 @@ import csv
 
 
 def main():
+    sleep(15) # wait to start the other services
     refreshDelay = 5 #delay to show new cordenades
     gpsDataCsvFileName = "gpsData.csv"
     lcd = ild.lcd()
