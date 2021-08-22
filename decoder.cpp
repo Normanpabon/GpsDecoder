@@ -64,6 +64,19 @@ string gpggaCordenades(vector<string> output){
     return data;
 }
 
+string gprmcCordenades(vector<string> output){
+    string data;
+
+    // process gprmc
+
+
+    return data;
+}
+
+string knotToKm(string knot){
+    return to_string((stod(knot)*1.852))+"km/h";
+}
+
 void parseDataToCsv(){
 
 }
